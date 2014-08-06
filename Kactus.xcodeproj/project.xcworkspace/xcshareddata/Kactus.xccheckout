@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>72371A82-A55B-42CD-A0B7-91488DF55ECA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Kactus</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C6E3FDA6-994A-45B1-A8BF-9A6C843EF65F</key>
+		<string>https://github.com/maxandreatta/Kactus-Framework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Kactus.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C6E3FDA6-994A-45B1-A8BF-9A6C843EF65F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/maxandreatta/Kactus-Framework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C6E3FDA6-994A-45B1-A8BF-9A6C843EF65F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C6E3FDA6-994A-45B1-A8BF-9A6C843EF65F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Kactus-Framework</string>
+		</dict>
+	</array>
+</dict>
+</plist>

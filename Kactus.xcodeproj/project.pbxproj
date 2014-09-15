@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0D5DBC19C1EEF9002944ED /* NSString+LeftPadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0D5DBB19C1EEF9002944ED /* NSString+LeftPadding.m */; };
+		2B0D5DBD19C1EF13002944ED /* NSString+LeftPadding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D5DBA19C1EEF9002944ED /* NSString+LeftPadding.h */; };
 		2B9CD3971982A4EB008F9F85 /* SystemServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CD3761982A4EB008F9F85 /* SystemServices.m */; };
 		2B9CD3981982A4EB008F9F85 /* NSObject+PerformBlockAfterDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CD3791982A4EB008F9F85 /* NSObject+PerformBlockAfterDelay.m */; };
 		2B9CD3991982A4EB008F9F85 /* SSAccelerometerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CD37B1982A4EB008F9F85 /* SSAccelerometerInfo.m */; };
@@ -76,6 +78,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				2B0D5DBD19C1EF13002944ED /* NSString+LeftPadding.h in CopyFiles */,
 				2B9CD3B71982A56D008F9F85 /* SystemServicesConstants.h in CopyFiles */,
 				2B9CD3A81982A53E008F9F85 /* NSObject+PerformBlockAfterDelay.h in CopyFiles */,
 				2B9CD3A91982A53E008F9F85 /* SSAccelerometerInfo.h in CopyFiles */,
@@ -104,6 +107,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B0D5DBA19C1EEF9002944ED /* NSString+LeftPadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LeftPadding.h"; sourceTree = "<group>"; };
+		2B0D5DBB19C1EEF9002944ED /* NSString+LeftPadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LeftPadding.m"; sourceTree = "<group>"; };
 		2B9CD3751982A4EB008F9F85 /* SystemServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemServices.h; sourceTree = "<group>"; };
 		2B9CD3761982A4EB008F9F85 /* SystemServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemServices.m; sourceTree = "<group>"; };
 		2B9CD3781982A4EB008F9F85 /* NSObject+PerformBlockAfterDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformBlockAfterDelay.h"; sourceTree = "<group>"; };
@@ -316,6 +321,8 @@
 				2BC60ACD1975729500E797AC /* UIColor+Utility.m */,
 				2BC60B6C197697BC00E797AC /* CAGradientLayer+SJSGradients.h */,
 				2BC60B6D197697BC00E797AC /* CAGradientLayer+SJSGradients.m */,
+				2B0D5DBA19C1EEF9002944ED /* NSString+LeftPadding.h */,
+				2B0D5DBB19C1EEF9002944ED /* NSString+LeftPadding.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -424,6 +431,7 @@
 				2B9CD39F1982A4EB008F9F85 /* SSHardwareInfo.m in Sources */,
 				2B9CD39E1982A4EB008F9F85 /* SSDiskInfo.m in Sources */,
 				2B9CD3991982A4EB008F9F85 /* SSAccelerometerInfo.m in Sources */,
+				2B0D5DBC19C1EEF9002944ED /* NSString+LeftPadding.m in Sources */,
 				2BC60B6E197697BC00E797AC /* CAGradientLayer+SJSGradients.m in Sources */,
 				2B9CD39B1982A4EB008F9F85 /* SSApplicationInfo.m in Sources */,
 				2BC60ACE1975729500E797AC /* UIColor+Utility.m in Sources */,

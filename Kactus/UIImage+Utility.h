@@ -12,13 +12,14 @@
 
 #define TMP NSTemporaryDirectory()
 
-+ (NSString *)contentTypeForImageData:(NSData *)data;
-+ (UIImage *)imageWithImage:(UIImage *)image scaledToSize:(CGSize)newSize;
++ (UIImage *) imageWithView:(UIView *)view;
++ (NSString *) contentTypeForImageData:(NSData *)data;
++ (UIImage *) imageWithImage:(UIImage *)image scaledToSize:(CGSize)newSize;
 + (UIImage *) imageFromColor:(UIColor *)color;
 + (UIImage *) image:(UIImage *)image withMaskColor:(UIColor *)color;
 + (UIImage *) tinteggia: (UIImage *)image rosso:(float)r verde:(float)g blu:(float)b alpha:(float)a;
 + (void) cacheImage: (NSString *) ImageURLString;
 + (UIImage *) getCachedImage: (NSString *) ImageURLString;
-
++ (UIImage *) convertBitmapRGBA24ToUIImage:(unsigned char *) buffer withWidth:(int) width withHeight:(int) height;
 
 @end

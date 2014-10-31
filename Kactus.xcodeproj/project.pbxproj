@@ -9,6 +9,25 @@
 /* Begin PBXBuildFile section */
 		2B0D5DBC19C1EEF9002944ED /* NSString+LeftPadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0D5DBB19C1EEF9002944ED /* NSString+LeftPadding.m */; };
 		2B0D5DBD19C1EF13002944ED /* NSString+LeftPadding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D5DBA19C1EEF9002944ED /* NSString+LeftPadding.h */; };
+		2B14E58519D4290300D5F374 /* NSThread+ManyObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B14E58419D4290300D5F374 /* NSThread+ManyObjects.m */; };
+		2B14E58619D4294300D5F374 /* NSThread+ManyObjects.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B14E58319D4290300D5F374 /* NSThread+ManyObjects.h */; };
+		2B1C292319CB248200EC43E4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1C292219CB248200EC43E4 /* CFNetwork.framework */; };
+		2B1C294319D0179600EC43E4 /* LocalizationSystem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BA7E7FA198A7F0900EB2DA8 /* LocalizationSystem.h */; };
+		2B1C294A19D02D2A00EC43E4 /* TCPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C294919D02D2A00EC43E4 /* TCPService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2B1C294D19D02D8300EC43E4 /* NetUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C294C19D02D8300EC43E4 /* NetUtilities.m */; };
+		2B1C295319D02E0700EC43E4 /* TCPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C295219D02E0700EC43E4 /* TCPConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2B1C295619D02E9D00EC43E4 /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C295519D02E9D00EC43E4 /* TCPServer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2B1C295719D02F2700EC43E4 /* TCPService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B1C294819D02D2A00EC43E4 /* TCPService.h */; };
+		2B1C295819D02F2700EC43E4 /* NetUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B1C294B19D02D8300EC43E4 /* NetUtilities.h */; };
+		2B1C295919D02F2700EC43E4 /* Networking_Internal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B1C294E19D02DCB00EC43E4 /* Networking_Internal.h */; };
+		2B1C295A19D02F2700EC43E4 /* TCPConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B1C295119D02E0700EC43E4 /* TCPConnection.h */; };
+		2B1C295B19D02F2700EC43E4 /* TCPServer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B1C295419D02E9D00EC43E4 /* TCPServer.h */; };
+		2B26883419E6D5710034BB35 /* UIImagePickerController+NonRotating.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26883319E6D5710034BB35 /* UIImagePickerController+NonRotating.m */; };
+		2B26883519E6D5B40034BB35 /* UIImagePickerController+NonRotating.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B26883219E6D5710034BB35 /* UIImagePickerController+NonRotating.h */; };
+		2B81675A19D2D2C900EF0058 /* NSString+IPValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B81675919D2D2C900EF0058 /* NSString+IPValidation.m */; };
+		2B81675B19D2D30300EF0058 /* NSString+IPValidation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B81675819D2D2C900EF0058 /* NSString+IPValidation.h */; };
+		2B81675F19D2D49500EF0058 /* NetworkUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B81675E19D2D49500EF0058 /* NetworkUtility.m */; };
+		2B81676019D2D53500EF0058 /* NetworkUtility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B81675D19D2D49500EF0058 /* NetworkUtility.h */; };
 		2B9CD3971982A4EB008F9F85 /* SystemServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CD3761982A4EB008F9F85 /* SystemServices.m */; };
 		2B9CD3981982A4EB008F9F85 /* NSObject+PerformBlockAfterDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CD3791982A4EB008F9F85 /* NSObject+PerformBlockAfterDelay.m */; };
 		2B9CD3991982A4EB008F9F85 /* SSAccelerometerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CD37B1982A4EB008F9F85 /* SSAccelerometerInfo.m */; };
@@ -59,6 +78,9 @@
 		2BC60B6F1976985000E797AC /* CAGradientLayer+SJSGradients.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BC60B6C197697BC00E797AC /* CAGradientLayer+SJSGradients.h */; };
 		2BCD0DF4197D143D00138FF6 /* UILabelWithPadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD0DF3197D143D00138FF6 /* UILabelWithPadding.m */; };
 		2BCD0DF5197D146500138FF6 /* UILabelWithPadding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BCD0DF2197D143D00138FF6 /* UILabelWithPadding.h */; };
+		2BFCDCC819C9B88C00564F4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFCDCC719C9B88C00564F4D /* CoreGraphics.framework */; };
+		2BFCDCCA19C9B8E100564F4D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFCDCC919C9B8E100564F4D /* MobileCoreServices.framework */; };
+		2BFCDCCC19C9B9C200564F4D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFCDCCB19C9B9C200564F4D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +100,16 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				2B26883519E6D5B40034BB35 /* UIImagePickerController+NonRotating.h in CopyFiles */,
+				2B14E58619D4294300D5F374 /* NSThread+ManyObjects.h in CopyFiles */,
+				2B81676019D2D53500EF0058 /* NetworkUtility.h in CopyFiles */,
+				2B81675B19D2D30300EF0058 /* NSString+IPValidation.h in CopyFiles */,
+				2B1C295719D02F2700EC43E4 /* TCPService.h in CopyFiles */,
+				2B1C295819D02F2700EC43E4 /* NetUtilities.h in CopyFiles */,
+				2B1C295919D02F2700EC43E4 /* Networking_Internal.h in CopyFiles */,
+				2B1C295A19D02F2700EC43E4 /* TCPConnection.h in CopyFiles */,
+				2B1C295B19D02F2700EC43E4 /* TCPServer.h in CopyFiles */,
+				2B1C294319D0179600EC43E4 /* LocalizationSystem.h in CopyFiles */,
 				2B0D5DBD19C1EF13002944ED /* NSString+LeftPadding.h in CopyFiles */,
 				2B9CD3B71982A56D008F9F85 /* SystemServicesConstants.h in CopyFiles */,
 				2B9CD3A81982A53E008F9F85 /* NSObject+PerformBlockAfterDelay.h in CopyFiles */,
@@ -109,6 +141,24 @@
 /* Begin PBXFileReference section */
 		2B0D5DBA19C1EEF9002944ED /* NSString+LeftPadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LeftPadding.h"; sourceTree = "<group>"; };
 		2B0D5DBB19C1EEF9002944ED /* NSString+LeftPadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LeftPadding.m"; sourceTree = "<group>"; };
+		2B14E58319D4290300D5F374 /* NSThread+ManyObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+ManyObjects.h"; sourceTree = "<group>"; };
+		2B14E58419D4290300D5F374 /* NSThread+ManyObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+ManyObjects.m"; sourceTree = "<group>"; };
+		2B1C292219CB248200EC43E4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2B1C294819D02D2A00EC43E4 /* TCPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPService.h; sourceTree = "<group>"; };
+		2B1C294919D02D2A00EC43E4 /* TCPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPService.m; sourceTree = "<group>"; };
+		2B1C294B19D02D8300EC43E4 /* NetUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetUtilities.h; sourceTree = "<group>"; };
+		2B1C294C19D02D8300EC43E4 /* NetUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetUtilities.m; sourceTree = "<group>"; };
+		2B1C294E19D02DCB00EC43E4 /* Networking_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Networking_Internal.h; sourceTree = "<group>"; };
+		2B1C295119D02E0700EC43E4 /* TCPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPConnection.h; sourceTree = "<group>"; };
+		2B1C295219D02E0700EC43E4 /* TCPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPConnection.m; sourceTree = "<group>"; };
+		2B1C295419D02E9D00EC43E4 /* TCPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPServer.h; sourceTree = "<group>"; };
+		2B1C295519D02E9D00EC43E4 /* TCPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPServer.m; sourceTree = "<group>"; };
+		2B26883219E6D5710034BB35 /* UIImagePickerController+NonRotating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+NonRotating.h"; sourceTree = "<group>"; };
+		2B26883319E6D5710034BB35 /* UIImagePickerController+NonRotating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+NonRotating.m"; sourceTree = "<group>"; };
+		2B81675819D2D2C900EF0058 /* NSString+IPValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IPValidation.h"; sourceTree = "<group>"; };
+		2B81675919D2D2C900EF0058 /* NSString+IPValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IPValidation.m"; sourceTree = "<group>"; };
+		2B81675D19D2D49500EF0058 /* NetworkUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUtility.h; sourceTree = "<group>"; };
+		2B81675E19D2D49500EF0058 /* NetworkUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkUtility.m; sourceTree = "<group>"; };
 		2B9CD3751982A4EB008F9F85 /* SystemServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemServices.h; sourceTree = "<group>"; };
 		2B9CD3761982A4EB008F9F85 /* SystemServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemServices.m; sourceTree = "<group>"; };
 		2B9CD3781982A4EB008F9F85 /* NSObject+PerformBlockAfterDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformBlockAfterDelay.h"; sourceTree = "<group>"; };
@@ -162,6 +212,10 @@
 		2BC60B6D197697BC00E797AC /* CAGradientLayer+SJSGradients.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+SJSGradients.m"; sourceTree = "<group>"; };
 		2BCD0DF2197D143D00138FF6 /* UILabelWithPadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelWithPadding.h; sourceTree = "<group>"; };
 		2BCD0DF3197D143D00138FF6 /* UILabelWithPadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelWithPadding.m; sourceTree = "<group>"; };
+		2BFCDCC519C9B58A00564F4D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2BFCDCC719C9B88C00564F4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BFCDCC919C9B8E100564F4D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2BFCDCCB19C9B9C200564F4D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +223,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BFCDCCA19C9B8E100564F4D /* MobileCoreServices.framework in Frameworks */,
+				2B1C292319CB248200EC43E4 /* CFNetwork.framework in Frameworks */,
+				2BFCDCCC19C9B9C200564F4D /* QuartzCore.framework in Frameworks */,
+				2BFCDCC819C9B88C00564F4D /* CoreGraphics.framework in Frameworks */,
 				2BC60ADC1975779400E797AC /* UIKit.framework in Frameworks */,
 				2BC60AA01975709700E797AC /* Foundation.framework in Frameworks */,
 			);
@@ -187,6 +245,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B1C291719CB22E700EC43E4 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2B81675C19D2D47400EF0058 /* Networking */,
+				2B1C293E19D016F500EC43E4 /* TCPServer */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		2B1C293E19D016F500EC43E4 /* TCPServer */ = {
+			isa = PBXGroup;
+			children = (
+				2B1C294819D02D2A00EC43E4 /* TCPService.h */,
+				2B1C294919D02D2A00EC43E4 /* TCPService.m */,
+				2B1C294B19D02D8300EC43E4 /* NetUtilities.h */,
+				2B1C294C19D02D8300EC43E4 /* NetUtilities.m */,
+				2B1C294E19D02DCB00EC43E4 /* Networking_Internal.h */,
+				2B1C295119D02E0700EC43E4 /* TCPConnection.h */,
+				2B1C295219D02E0700EC43E4 /* TCPConnection.m */,
+				2B1C295419D02E9D00EC43E4 /* TCPServer.h */,
+				2B1C295519D02E9D00EC43E4 /* TCPServer.m */,
+			);
+			name = TCPServer;
+			sourceTree = "<group>";
+		};
+		2B81675C19D2D47400EF0058 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2B81675D19D2D49500EF0058 /* NetworkUtility.h */,
+				2B81675E19D2D49500EF0058 /* NetworkUtility.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
 		2B9CD3741982A4EB008F9F85 /* SystemServicesInfo */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +358,11 @@
 		2BC60A9E1975709700E797AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2B1C292219CB248200EC43E4 /* CFNetwork.framework */,
+				2BFCDCCB19C9B9C200564F4D /* QuartzCore.framework */,
+				2BFCDCC919C9B8E100564F4D /* MobileCoreServices.framework */,
+				2BFCDCC719C9B88C00564F4D /* CoreGraphics.framework */,
+				2BFCDCC519C9B58A00564F4D /* OpenGLES.framework */,
 				2BC60ADB1975779400E797AC /* UIKit.framework */,
 				2BC60A9F1975709700E797AC /* Foundation.framework */,
 				2BC60AAD1975709700E797AC /* XCTest.framework */,
@@ -276,6 +373,7 @@
 		2BC60AA11975709700E797AC /* Kactus */ = {
 			isa = PBXGroup;
 			children = (
+				2B1C291719CB22E700EC43E4 /* Class */,
 				2BA7E7F9198A7EF500EB2DA8 /* Localization */,
 				2B9CD3741982A4EB008F9F85 /* SystemServicesInfo */,
 				2BCD0DF1197D141D00138FF6 /* SubClass */,
@@ -323,6 +421,12 @@
 				2BC60B6D197697BC00E797AC /* CAGradientLayer+SJSGradients.m */,
 				2B0D5DBA19C1EEF9002944ED /* NSString+LeftPadding.h */,
 				2B0D5DBB19C1EEF9002944ED /* NSString+LeftPadding.m */,
+				2B81675819D2D2C900EF0058 /* NSString+IPValidation.h */,
+				2B81675919D2D2C900EF0058 /* NSString+IPValidation.m */,
+				2B14E58319D4290300D5F374 /* NSThread+ManyObjects.h */,
+				2B14E58419D4290300D5F374 /* NSThread+ManyObjects.m */,
+				2B26883219E6D5710034BB35 /* UIImagePickerController+NonRotating.h */,
+				2B26883319E6D5710034BB35 /* UIImagePickerController+NonRotating.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -418,14 +522,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B9CD3981982A4EB008F9F85 /* NSObject+PerformBlockAfterDelay.m in Sources */,
+				2B1C295319D02E0700EC43E4 /* TCPConnection.m in Sources */,
 				2BCD0DF4197D143D00138FF6 /* UILabelWithPadding.m in Sources */,
 				2B9CD3A01982A4EB008F9F85 /* SSJailbreakCheck.m in Sources */,
 				2B9CD39D1982A4EB008F9F85 /* SSCarrierInfo.m in Sources */,
+				2B1C294D19D02D8300EC43E4 /* NetUtilities.m in Sources */,
 				2B9CD3A21982A4EB008F9F85 /* SSMemoryInfo.m in Sources */,
 				2B9CD3A41982A4EB008F9F85 /* SSProcessInfo.m in Sources */,
 				2B9CD39A1982A4EB008F9F85 /* SSAccessoryInfo.m in Sources */,
 				2B9CD3A31982A4EB008F9F85 /* SSNetworkInfo.m in Sources */,
 				2B9CD3A61982A4EB008F9F85 /* SSUUID.m in Sources */,
+				2B81675A19D2D2C900EF0058 /* NSString+IPValidation.m in Sources */,
 				2B9CD3A11982A4EB008F9F85 /* SSLocalizationInfo.m in Sources */,
 				2B9CD3A51982A4EB008F9F85 /* SSProcessorInfo.m in Sources */,
 				2B9CD39F1982A4EB008F9F85 /* SSHardwareInfo.m in Sources */,
@@ -435,10 +542,15 @@
 				2BC60B6E197697BC00E797AC /* CAGradientLayer+SJSGradients.m in Sources */,
 				2B9CD39B1982A4EB008F9F85 /* SSApplicationInfo.m in Sources */,
 				2BC60ACE1975729500E797AC /* UIColor+Utility.m in Sources */,
+				2B1C295619D02E9D00EC43E4 /* TCPServer.m in Sources */,
+				2B1C294A19D02D2A00EC43E4 /* TCPService.m in Sources */,
 				2BA7E7FC198A7F0900EB2DA8 /* LocalizationSystem.m in Sources */,
+				2B14E58519D4290300D5F374 /* NSThread+ManyObjects.m in Sources */,
 				2BC60ACA197571AF00E797AC /* UIImage+Utility.m in Sources */,
 				2B9CD3971982A4EB008F9F85 /* SystemServices.m in Sources */,
+				2B81675F19D2D49500EF0058 /* NetworkUtility.m in Sources */,
 				2B9CD39C1982A4EB008F9F85 /* SSBatteryInfo.m in Sources */,
+				2B26883419E6D5710034BB35 /* UIImagePickerController+NonRotating.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

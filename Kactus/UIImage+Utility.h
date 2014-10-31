@@ -20,6 +20,6 @@
 + (UIImage *) tinteggia: (UIImage *)image rosso:(float)r verde:(float)g blu:(float)b alpha:(float)a;
 + (void) cacheImage: (NSString *) ImageURLString;
 + (UIImage *) getCachedImage: (NSString *) ImageURLString;
-+ (UIImage *) convertBitmapRGBA24ToUIImage:(unsigned char *) buffer withWidth:(int) width withHeight:(int) height;
++ (UIImage *) convertBitmapRGBA24ToUIImage:(unsigned char *) bits withSize: (CGSize) size;
 
 @end

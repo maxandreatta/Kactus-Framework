@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270AB2DD1A07871C0052C772 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 270AB2DC1A07871C0052C772 /* Utility.m */; };
+		270AB2DE1A078C340052C772 /* Utility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 270AB2DB1A07871C0052C772 /* Utility.h */; };
 		2B0D5DBC19C1EEF9002944ED /* NSString+LeftPadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0D5DBB19C1EEF9002944ED /* NSString+LeftPadding.m */; };
 		2B0D5DBD19C1EF13002944ED /* NSString+LeftPadding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D5DBA19C1EEF9002944ED /* NSString+LeftPadding.h */; };
 		2B14E58519D4290300D5F374 /* NSThread+ManyObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B14E58419D4290300D5F374 /* NSThread+ManyObjects.m */; };
@@ -100,6 +102,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				270AB2DE1A078C340052C772 /* Utility.h in CopyFiles */,
 				2B26883519E6D5B40034BB35 /* UIImagePickerController+NonRotating.h in CopyFiles */,
 				2B14E58619D4294300D5F374 /* NSThread+ManyObjects.h in CopyFiles */,
 				2B81676019D2D53500EF0058 /* NetworkUtility.h in CopyFiles */,
@@ -139,6 +142,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		270AB2DB1A07871C0052C772 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		270AB2DC1A07871C0052C772 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		2B0D5DBA19C1EEF9002944ED /* NSString+LeftPadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LeftPadding.h"; sourceTree = "<group>"; };
 		2B0D5DBB19C1EEF9002944ED /* NSString+LeftPadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LeftPadding.m"; sourceTree = "<group>"; };
 		2B14E58319D4290300D5F374 /* NSThread+ManyObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+ManyObjects.h"; sourceTree = "<group>"; };
@@ -245,11 +250,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		270AB2DA1A0786DC0052C772 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				270AB2DB1A07871C0052C772 /* Utility.h */,
+				270AB2DC1A07871C0052C772 /* Utility.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 		2B1C291719CB22E700EC43E4 /* Class */ = {
 			isa = PBXGroup;
 			children = (
 				2B81675C19D2D47400EF0058 /* Networking */,
 				2B1C293E19D016F500EC43E4 /* TCPServer */,
+				270AB2DA1A0786DC0052C772 /* Utility */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -545,6 +560,7 @@
 				2B1C295619D02E9D00EC43E4 /* TCPServer.m in Sources */,
 				2B1C294A19D02D2A00EC43E4 /* TCPService.m in Sources */,
 				2BA7E7FC198A7F0900EB2DA8 /* LocalizationSystem.m in Sources */,
+				270AB2DD1A07871C0052C772 /* Utility.m in Sources */,
 				2B14E58519D4290300D5F374 /* NSThread+ManyObjects.m in Sources */,
 				2BC60ACA197571AF00E797AC /* UIImage+Utility.m in Sources */,
 				2B9CD3971982A4EB008F9F85 /* SystemServices.m in Sources */,

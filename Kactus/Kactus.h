@@ -17,3 +17,4 @@
 #import "NetworkUtility.h"
 #import "NSThread+ManyObjects.h"
 #import "Utility.h"
+#import "UIView+JTViewToImage.h"

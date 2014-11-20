@@ -26,6 +26,8 @@
 		2B1C295B19D02F2700EC43E4 /* TCPServer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B1C295419D02E9D00EC43E4 /* TCPServer.h */; };
 		2B26883419E6D5710034BB35 /* UIImagePickerController+NonRotating.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26883319E6D5710034BB35 /* UIImagePickerController+NonRotating.m */; };
 		2B26883519E6D5B40034BB35 /* UIImagePickerController+NonRotating.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B26883219E6D5710034BB35 /* UIImagePickerController+NonRotating.h */; };
+		2B408F731A07CD10008104BB /* UIView+JTViewToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B408F721A07CD10008104BB /* UIView+JTViewToImage.m */; };
+		2B408F741A07CD7E008104BB /* UIView+JTViewToImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B408F711A07CD10008104BB /* UIView+JTViewToImage.h */; };
 		2B81675A19D2D2C900EF0058 /* NSString+IPValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B81675919D2D2C900EF0058 /* NSString+IPValidation.m */; };
 		2B81675B19D2D30300EF0058 /* NSString+IPValidation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B81675819D2D2C900EF0058 /* NSString+IPValidation.h */; };
 		2B81675F19D2D49500EF0058 /* NetworkUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B81675E19D2D49500EF0058 /* NetworkUtility.m */; };
@@ -102,6 +104,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				2B408F741A07CD7E008104BB /* UIView+JTViewToImage.h in CopyFiles */,
 				270AB2DE1A078C340052C772 /* Utility.h in CopyFiles */,
 				2B26883519E6D5B40034BB35 /* UIImagePickerController+NonRotating.h in CopyFiles */,
 				2B14E58619D4294300D5F374 /* NSThread+ManyObjects.h in CopyFiles */,
@@ -160,6 +163,8 @@
 		2B1C295519D02E9D00EC43E4 /* TCPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPServer.m; sourceTree = "<group>"; };
 		2B26883219E6D5710034BB35 /* UIImagePickerController+NonRotating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+NonRotating.h"; sourceTree = "<group>"; };
 		2B26883319E6D5710034BB35 /* UIImagePickerController+NonRotating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+NonRotating.m"; sourceTree = "<group>"; };
+		2B408F711A07CD10008104BB /* UIView+JTViewToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JTViewToImage.h"; sourceTree = "<group>"; };
+		2B408F721A07CD10008104BB /* UIView+JTViewToImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JTViewToImage.m"; sourceTree = "<group>"; };
 		2B81675819D2D2C900EF0058 /* NSString+IPValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IPValidation.h"; sourceTree = "<group>"; };
 		2B81675919D2D2C900EF0058 /* NSString+IPValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IPValidation.m"; sourceTree = "<group>"; };
 		2B81675D19D2D49500EF0058 /* NetworkUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUtility.h; sourceTree = "<group>"; };
@@ -442,6 +447,8 @@
 				2B14E58419D4290300D5F374 /* NSThread+ManyObjects.m */,
 				2B26883219E6D5710034BB35 /* UIImagePickerController+NonRotating.h */,
 				2B26883319E6D5710034BB35 /* UIImagePickerController+NonRotating.m */,
+				2B408F711A07CD10008104BB /* UIView+JTViewToImage.h */,
+				2B408F721A07CD10008104BB /* UIView+JTViewToImage.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -556,6 +563,7 @@
 				2B0D5DBC19C1EEF9002944ED /* NSString+LeftPadding.m in Sources */,
 				2BC60B6E197697BC00E797AC /* CAGradientLayer+SJSGradients.m in Sources */,
 				2B9CD39B1982A4EB008F9F85 /* SSApplicationInfo.m in Sources */,
+				2B408F731A07CD10008104BB /* UIView+JTViewToImage.m in Sources */,
 				2BC60ACE1975729500E797AC /* UIColor+Utility.m in Sources */,
 				2B1C295619D02E9D00EC43E4 /* TCPServer.m in Sources */,
 				2B1C294A19D02D2A00EC43E4 /* TCPService.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "UIImage+Utility.h"
+#import "UIColor+Utility.h"
 
 @import ImageIO; // to do the actual work
 @import MobileCoreServices; // for the type defines
@@ -116,6 +117,32 @@
 
 + (UIImage*)tinteggia: (UIImage *)image rosso:(float)r verde:(float)g blu:(float)b alpha:(float)a
 {
+    UIGraphicsBeginImageContextWithOptions(image.size, NO, image.scale);
+    CGRect imageRect = CGRectMake(0.0f, 0.0f, image.size.width, image.size.height);
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    CGContextSetRGBFillColor(ctx,r / 255.0, g / 255.0, b / 255.0, a);
+    CGContextFillRect(ctx, imageRect);
+    [image drawInRect:imageRect blendMode:kCGBlendModeDestinationIn alpha:a];
+    UIImage* outImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return outImage;
+}
+
++ (UIImage*)tinteggia:(UIImage *)image fromColor:(UIColor*)colorReceveid withAlpha:(CGFloat)a
+{
+    
+    CGFloat r;
+    CGFloat g;
+    CGFloat b;
+    
+    CGFloat components[3];
+    
+    [UIColor getRGBComponents:components forColor:colorReceveid];
+    
+    r = components[0] * 255;
+    g = components[1] * 255;
+    b = components[2] * 255;
+    
     UIGraphicsBeginImageContextWithOptions(image.size, NO, image.scale);
     CGRect imageRect = CGRectMake(0.0f, 0.0f, image.size.width, image.size.height);
     CGContextRef ctx = UIGraphicsGetCurrentContext();

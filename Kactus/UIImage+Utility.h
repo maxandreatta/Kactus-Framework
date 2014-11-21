@@ -18,6 +18,7 @@
 + (UIImage *) imageFromColor:(UIColor *)color;
 + (UIImage *) image:(UIImage *)image withMaskColor:(UIColor *)color;
 + (UIImage *) tinteggia: (UIImage *)image rosso:(float)r verde:(float)g blu:(float)b alpha:(float)a;
++ (UIImage*)tinteggia:(UIImage *)image fromColor:(UIColor*)colorReceveid withAlpha:(CGFloat)a;
 + (void) cacheImage: (NSString *) ImageURLString;
 + (UIImage *) getCachedImage: (NSString *) ImageURLString;
 + (UIImage *) convertBitmapRGBA24ToUIImage:(unsigned char *) bits withSize: (CGSize) size;

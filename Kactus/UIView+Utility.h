@@ -12,5 +12,13 @@
 
 - (void)addBorderWithColor:(UIColor*)color andWidth:(CGFloat)width andCornerRadius:(CGFloat)cornerRadius;
 - (void)removeBorder;
+- (CGFloat)getX;
+- (CGFloat)getY;
+- (CGFloat)getWidth;
+- (CGFloat)getHeight;
+- (void)setX:(float)x;
+- (void)setY:(float)y;
+- (void)setWidth:(float)width;
+- (void)setHeight:(float)height;
 
 @end

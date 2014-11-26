@@ -10,6 +10,11 @@
 
 @interface UIView (Utility)
 
+@property (setter=setX:, getter=getX) CGFloat x;
+@property (setter=setY:, getter=getY) CGFloat y;
+@property (setter=setWidth:, getter=getWidth) CGFloat width;
+@property (setter=setHeight:, getter=getHeight) CGFloat height;
+
 - (void)addBorderWithColor:(UIColor*)color andWidth:(CGFloat)width andCornerRadius:(CGFloat)cornerRadius;
 - (void)removeBorder;
 - (CGFloat)getX;

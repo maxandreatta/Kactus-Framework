@@ -20,3 +20,4 @@
 #import "UIView+JTViewToImage.h"
 #import "UIView+Utility.h"
 #import "UILabel+VAlign.h"
+#import "NSString+Utility.h"

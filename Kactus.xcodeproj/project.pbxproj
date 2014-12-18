@@ -15,6 +15,8 @@
 		27B573C51A2732C0003F33DE /* NSString+Utility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27B573C21A273233003F33DE /* NSString+Utility.h */; };
 		27DE5AC61A2342DE009B4EB7 /* UIView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DE5AC51A2342DE009B4EB7 /* UIView+Utility.m */; };
 		27DE5AC71A23446C009B4EB7 /* UIView+Utility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27DE5AC41A2342DE009B4EB7 /* UIView+Utility.h */; };
+		27E75D6A1A432B06008A1100 /* NSDate+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E75D691A432B06008A1100 /* NSDate+Utility.m */; };
+		27E75D6B1A432B93008A1100 /* NSDate+Utility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27E75D681A432B06008A1100 /* NSDate+Utility.h */; };
 		2B0D5DBC19C1EEF9002944ED /* NSString+LeftPadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0D5DBB19C1EEF9002944ED /* NSString+LeftPadding.m */; };
 		2B0D5DBD19C1EF13002944ED /* NSString+LeftPadding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D5DBA19C1EEF9002944ED /* NSString+LeftPadding.h */; };
 		2B14E58519D4290300D5F374 /* NSThread+ManyObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B14E58419D4290300D5F374 /* NSThread+ManyObjects.m */; };
@@ -110,6 +112,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				27E75D6B1A432B93008A1100 /* NSDate+Utility.h in CopyFiles */,
 				27B573C51A2732C0003F33DE /* NSString+Utility.h in CopyFiles */,
 				27A16ACF1A23811C00153E37 /* UILabel+VAlign.h in CopyFiles */,
 				27DE5AC71A23446C009B4EB7 /* UIView+Utility.h in CopyFiles */,
@@ -162,6 +165,8 @@
 		27B573C31A273233003F33DE /* NSString+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
 		27DE5AC41A2342DE009B4EB7 /* UIView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utility.h"; sourceTree = "<group>"; };
 		27DE5AC51A2342DE009B4EB7 /* UIView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utility.m"; sourceTree = "<group>"; };
+		27E75D681A432B06008A1100 /* NSDate+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utility.h"; sourceTree = "<group>"; };
+		27E75D691A432B06008A1100 /* NSDate+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utility.m"; sourceTree = "<group>"; };
 		2B0D5DBA19C1EEF9002944ED /* NSString+LeftPadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LeftPadding.h"; sourceTree = "<group>"; };
 		2B0D5DBB19C1EEF9002944ED /* NSString+LeftPadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LeftPadding.m"; sourceTree = "<group>"; };
 		2B14E58319D4290300D5F374 /* NSThread+ManyObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+ManyObjects.h"; sourceTree = "<group>"; };
@@ -448,24 +453,26 @@
 		2BC60AC71975719700E797AC /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				2BC60AC8197571AF00E797AC /* UIImage+Utility.h */,
-				2BC60AC9197571AF00E797AC /* UIImage+Utility.m */,
-				27A16ACC1A23803D00153E37 /* UILabel+VAlign.h */,
-				27A16ACD1A23803D00153E37 /* UILabel+VAlign.m */,
-				2BC60ACC1975729500E797AC /* UIColor+Utility.h */,
-				2BC60ACD1975729500E797AC /* UIColor+Utility.m */,
 				2BC60B6C197697BC00E797AC /* CAGradientLayer+SJSGradients.h */,
 				2BC60B6D197697BC00E797AC /* CAGradientLayer+SJSGradients.m */,
-				2B0D5DBA19C1EEF9002944ED /* NSString+LeftPadding.h */,
-				2B0D5DBB19C1EEF9002944ED /* NSString+LeftPadding.m */,
+				27E75D681A432B06008A1100 /* NSDate+Utility.h */,
+				27E75D691A432B06008A1100 /* NSDate+Utility.m */,
 				2B81675819D2D2C900EF0058 /* NSString+IPValidation.h */,
 				2B81675919D2D2C900EF0058 /* NSString+IPValidation.m */,
+				2B0D5DBA19C1EEF9002944ED /* NSString+LeftPadding.h */,
+				2B0D5DBB19C1EEF9002944ED /* NSString+LeftPadding.m */,
 				27B573C21A273233003F33DE /* NSString+Utility.h */,
 				27B573C31A273233003F33DE /* NSString+Utility.m */,
 				2B14E58319D4290300D5F374 /* NSThread+ManyObjects.h */,
 				2B14E58419D4290300D5F374 /* NSThread+ManyObjects.m */,
+				2BC60ACC1975729500E797AC /* UIColor+Utility.h */,
+				2BC60ACD1975729500E797AC /* UIColor+Utility.m */,
+				2BC60AC8197571AF00E797AC /* UIImage+Utility.h */,
+				2BC60AC9197571AF00E797AC /* UIImage+Utility.m */,
 				2B26883219E6D5710034BB35 /* UIImagePickerController+NonRotating.h */,
 				2B26883319E6D5710034BB35 /* UIImagePickerController+NonRotating.m */,
+				27A16ACC1A23803D00153E37 /* UILabel+VAlign.h */,
+				27A16ACD1A23803D00153E37 /* UILabel+VAlign.m */,
 				2B408F711A07CD10008104BB /* UIView+JTViewToImage.h */,
 				2B408F721A07CD10008104BB /* UIView+JTViewToImage.m */,
 				27DE5AC41A2342DE009B4EB7 /* UIView+Utility.h */,
@@ -589,6 +596,7 @@
 				2B408F731A07CD10008104BB /* UIView+JTViewToImage.m in Sources */,
 				2BC60ACE1975729500E797AC /* UIColor+Utility.m in Sources */,
 				2B1C295619D02E9D00EC43E4 /* TCPServer.m in Sources */,
+				27E75D6A1A432B06008A1100 /* NSDate+Utility.m in Sources */,
 				2B1C294A19D02D2A00EC43E4 /* TCPService.m in Sources */,
 				2BA7E7FC198A7F0900EB2DA8 /* LocalizationSystem.m in Sources */,
 				270AB2DD1A07871C0052C772 /* Utility.m in Sources */,

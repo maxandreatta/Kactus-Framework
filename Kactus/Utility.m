@@ -134,6 +134,22 @@
     return shortString;
 }
 
++ (void)addGradientViewToBackView:(UIView*)viewParent withFrame:(CGRect)frameGradientView colors:(NSArray*)arrayColors andGradientLocation:(NSArray*)arrayGradientLocation {
+    
+    UIView *viewGradient = [[UIView alloc] initWithFrame:frameGradientView];
+    
+    CAGradientLayer *gradient = [CAGradientLayer layer];
+    gradient.opacity = 1;
+    gradient.frame = viewGradient.bounds;
+    gradient.colors = arrayColors;
+    gradient.locations = arrayGradientLocation;
+    viewGradient.userInteractionEnabled = NO;
+    [viewGradient.layer insertSublayer:gradient atIndex:0];
+
+    [[viewParent superview] insertSubview:viewGradient belowSubview:viewParent];
+    
+}
+
 /*
 + (id)applyShadow:(id)elementToWhichToApply {
     if([elementToWhichToApply class] == [UILabel class]) {

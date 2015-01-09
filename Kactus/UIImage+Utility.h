@@ -17,7 +17,7 @@
 + (UIImage *) imageWithImage:(UIImage *)image scaledToSize:(CGSize)newSize;
 + (UIImage *) imageFromColor:(UIColor *)color;
 + (UIImage *) image:(UIImage *)image withMaskColor:(UIColor *)color;
-+ (UIImage *) tinteggia: (UIImage *)image rosso:(float)r verde:(float)g blu:(float)b alpha:(float)a;
++ (UIImage *) tinteggia: (UIImage *)image rosso:(float)r verde:(float)g blu:(float)b alpha:(float)a NS_DEPRECATED_IOS(3_0, 7_0, "Use tinteggia:fromColor:withAlpha instead");
 + (UIImage*)tinteggia:(UIImage *)image fromColor:(UIColor*)colorReceveid withAlpha:(CGFloat)a;
 + (void) cacheImage: (NSString *) ImageURLString;
 + (UIImage *) getCachedImage: (NSString *) ImageURLString;

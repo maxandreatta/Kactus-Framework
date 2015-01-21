@@ -134,7 +134,17 @@
     return shortString;
 }
 
-+ (void)addGradientViewToBackView:(UIView*)viewParent withFrame:(CGRect)frameGradientView colors:(NSArray*)arrayColors andGradientLocation:(NSArray*)arrayGradientLocation {
+/**
+ *  Inserisce una UIView con il gradiente e la ritorna per poterla salvare e manipolare successivamente
+ *
+ *  @param viewParent
+ *  @param frameGradientView
+ *  @param arrayColors
+ *  @param arrayGradientLocation
+ *
+ *  @return ViewGradiente
+ */
++ (UIView*)addGradientViewToBackView:(UIView*)viewParent withFrame:(CGRect)frameGradientView colors:(NSArray*)arrayColors andGradientLocation:(NSArray*)arrayGradientLocation {
     
     UIView *viewGradient = [[UIView alloc] initWithFrame:frameGradientView];
     
@@ -147,6 +157,8 @@
     [viewGradient.layer insertSublayer:gradient atIndex:0];
 
     [[viewParent superview] insertSubview:viewGradient belowSubview:viewParent];
+    
+    return viewGradient;
     
 }
 

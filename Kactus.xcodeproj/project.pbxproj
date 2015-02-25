@@ -23,15 +23,6 @@
 		2B14E58619D4294300D5F374 /* NSThread+ManyObjects.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B14E58319D4290300D5F374 /* NSThread+ManyObjects.h */; };
 		2B1C292319CB248200EC43E4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1C292219CB248200EC43E4 /* CFNetwork.framework */; };
 		2B1C294319D0179600EC43E4 /* LocalizationSystem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BA7E7FA198A7F0900EB2DA8 /* LocalizationSystem.h */; };
-		2B1C294A19D02D2A00EC43E4 /* TCPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C294919D02D2A00EC43E4 /* TCPService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2B1C294D19D02D8300EC43E4 /* NetUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C294C19D02D8300EC43E4 /* NetUtilities.m */; };
-		2B1C295319D02E0700EC43E4 /* TCPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C295219D02E0700EC43E4 /* TCPConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2B1C295619D02E9D00EC43E4 /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C295519D02E9D00EC43E4 /* TCPServer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2B1C295719D02F2700EC43E4 /* TCPService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B1C294819D02D2A00EC43E4 /* TCPService.h */; };
-		2B1C295819D02F2700EC43E4 /* NetUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B1C294B19D02D8300EC43E4 /* NetUtilities.h */; };
-		2B1C295919D02F2700EC43E4 /* Networking_Internal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B1C294E19D02DCB00EC43E4 /* Networking_Internal.h */; };
-		2B1C295A19D02F2700EC43E4 /* TCPConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B1C295119D02E0700EC43E4 /* TCPConnection.h */; };
-		2B1C295B19D02F2700EC43E4 /* TCPServer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B1C295419D02E9D00EC43E4 /* TCPServer.h */; };
 		2B26883419E6D5710034BB35 /* UIImagePickerController+NonRotating.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26883319E6D5710034BB35 /* UIImagePickerController+NonRotating.m */; };
 		2B26883519E6D5B40034BB35 /* UIImagePickerController+NonRotating.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B26883219E6D5710034BB35 /* UIImagePickerController+NonRotating.h */; };
 		2B408F731A07CD10008104BB /* UIView+JTViewToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B408F721A07CD10008104BB /* UIView+JTViewToImage.m */; };
@@ -122,11 +113,6 @@
 				2B14E58619D4294300D5F374 /* NSThread+ManyObjects.h in CopyFiles */,
 				2B81676019D2D53500EF0058 /* NetworkUtility.h in CopyFiles */,
 				2B81675B19D2D30300EF0058 /* NSString+IPValidation.h in CopyFiles */,
-				2B1C295719D02F2700EC43E4 /* TCPService.h in CopyFiles */,
-				2B1C295819D02F2700EC43E4 /* NetUtilities.h in CopyFiles */,
-				2B1C295919D02F2700EC43E4 /* Networking_Internal.h in CopyFiles */,
-				2B1C295A19D02F2700EC43E4 /* TCPConnection.h in CopyFiles */,
-				2B1C295B19D02F2700EC43E4 /* TCPServer.h in CopyFiles */,
 				2B1C294319D0179600EC43E4 /* LocalizationSystem.h in CopyFiles */,
 				2B0D5DBD19C1EF13002944ED /* NSString+LeftPadding.h in CopyFiles */,
 				2B9CD3B71982A56D008F9F85 /* SystemServicesConstants.h in CopyFiles */,
@@ -172,15 +158,6 @@
 		2B14E58319D4290300D5F374 /* NSThread+ManyObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+ManyObjects.h"; sourceTree = "<group>"; };
 		2B14E58419D4290300D5F374 /* NSThread+ManyObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+ManyObjects.m"; sourceTree = "<group>"; };
 		2B1C292219CB248200EC43E4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		2B1C294819D02D2A00EC43E4 /* TCPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPService.h; sourceTree = "<group>"; };
-		2B1C294919D02D2A00EC43E4 /* TCPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPService.m; sourceTree = "<group>"; };
-		2B1C294B19D02D8300EC43E4 /* NetUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetUtilities.h; sourceTree = "<group>"; };
-		2B1C294C19D02D8300EC43E4 /* NetUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetUtilities.m; sourceTree = "<group>"; };
-		2B1C294E19D02DCB00EC43E4 /* Networking_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Networking_Internal.h; sourceTree = "<group>"; };
-		2B1C295119D02E0700EC43E4 /* TCPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPConnection.h; sourceTree = "<group>"; };
-		2B1C295219D02E0700EC43E4 /* TCPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPConnection.m; sourceTree = "<group>"; };
-		2B1C295419D02E9D00EC43E4 /* TCPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPServer.h; sourceTree = "<group>"; };
-		2B1C295519D02E9D00EC43E4 /* TCPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPServer.m; sourceTree = "<group>"; };
 		2B26883219E6D5710034BB35 /* UIImagePickerController+NonRotating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+NonRotating.h"; sourceTree = "<group>"; };
 		2B26883319E6D5710034BB35 /* UIImagePickerController+NonRotating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+NonRotating.m"; sourceTree = "<group>"; };
 		2B408F711A07CD10008104BB /* UIView+JTViewToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JTViewToImage.h"; sourceTree = "<group>"; };
@@ -288,26 +265,9 @@
 			isa = PBXGroup;
 			children = (
 				2B81675C19D2D47400EF0058 /* Networking */,
-				2B1C293E19D016F500EC43E4 /* TCPServer */,
 				270AB2DA1A0786DC0052C772 /* Utility */,
 			);
 			name = Class;
-			sourceTree = "<group>";
-		};
-		2B1C293E19D016F500EC43E4 /* TCPServer */ = {
-			isa = PBXGroup;
-			children = (
-				2B1C294819D02D2A00EC43E4 /* TCPService.h */,
-				2B1C294919D02D2A00EC43E4 /* TCPService.m */,
-				2B1C294B19D02D8300EC43E4 /* NetUtilities.h */,
-				2B1C294C19D02D8300EC43E4 /* NetUtilities.m */,
-				2B1C294E19D02DCB00EC43E4 /* Networking_Internal.h */,
-				2B1C295119D02E0700EC43E4 /* TCPConnection.h */,
-				2B1C295219D02E0700EC43E4 /* TCPConnection.m */,
-				2B1C295419D02E9D00EC43E4 /* TCPServer.h */,
-				2B1C295519D02E9D00EC43E4 /* TCPServer.m */,
-			);
-			name = TCPServer;
 			sourceTree = "<group>";
 		};
 		2B81675C19D2D47400EF0058 /* Networking */ = {
@@ -572,11 +532,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B9CD3981982A4EB008F9F85 /* NSObject+PerformBlockAfterDelay.m in Sources */,
-				2B1C295319D02E0700EC43E4 /* TCPConnection.m in Sources */,
 				2BCD0DF4197D143D00138FF6 /* UILabelWithPadding.m in Sources */,
 				2B9CD3A01982A4EB008F9F85 /* SSJailbreakCheck.m in Sources */,
 				2B9CD39D1982A4EB008F9F85 /* SSCarrierInfo.m in Sources */,
-				2B1C294D19D02D8300EC43E4 /* NetUtilities.m in Sources */,
 				2B9CD3A21982A4EB008F9F85 /* SSMemoryInfo.m in Sources */,
 				2B9CD3A41982A4EB008F9F85 /* SSProcessInfo.m in Sources */,
 				2B9CD39A1982A4EB008F9F85 /* SSAccessoryInfo.m in Sources */,
@@ -595,9 +553,7 @@
 				2B9CD39B1982A4EB008F9F85 /* SSApplicationInfo.m in Sources */,
 				2B408F731A07CD10008104BB /* UIView+JTViewToImage.m in Sources */,
 				2BC60ACE1975729500E797AC /* UIColor+Utility.m in Sources */,
-				2B1C295619D02E9D00EC43E4 /* TCPServer.m in Sources */,
 				27E75D6A1A432B06008A1100 /* NSDate+Utility.m in Sources */,
-				2B1C294A19D02D2A00EC43E4 /* TCPService.m in Sources */,
 				2BA7E7FC198A7F0900EB2DA8 /* LocalizationSystem.m in Sources */,
 				270AB2DD1A07871C0052C772 /* Utility.m in Sources */,
 				27B573C41A273233003F33DE /* NSString+Utility.m in Sources */,

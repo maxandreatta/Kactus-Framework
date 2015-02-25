@@ -19,7 +19,8 @@
                                                  8,
                                                  4,
                                                  rgbColorSpace,
-                                                 kCGImageAlphaNoneSkipLast);
+                                                 kCGBitmapAlphaInfoMask);
+    
     CGContextSetFillColorWithColor(context, [color CGColor]);
     CGContextFillRect(context, CGRectMake(0, 0, 1, 1));
     CGContextRelease(context);

@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-    spec.name = 'Kactus-Framework'
+    spec.name = 'Kactus'
     spec.version = '0.1'
     spec.authors = { 'Andreatta Massimiliano' => 'massimiliano.andreatta@gmail.com' }
     spec.homepage = 'https://github.com/maxandreatta/Kactus-Framework'

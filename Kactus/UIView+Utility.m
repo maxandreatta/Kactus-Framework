@@ -50,7 +50,7 @@
     
 }
 
-- (void)setX:(float)x {
+- (void)setX:(CGFloat)x {
     
     CGRect viewFrame = self.frame;
     viewFrame.origin.x = x;
@@ -58,7 +58,7 @@
     
 }
 
-- (void)setY:(float)y {
+- (void)setY:(CGFloat)y {
     
     CGRect viewFrame = self.frame;
     viewFrame.origin.y = y;
@@ -66,7 +66,7 @@
     
 }
 
-- (void)setWidth:(float)width {
+- (void)setWidth:(CGFloat)width {
     
     CGRect viewFrame = self.frame;
     viewFrame.size.width = width;
@@ -74,7 +74,7 @@
     
 }
 
-- (void)setHeight:(float)height {
+- (void)setHeight:(CGFloat)height {
     
     CGRect viewFrame = self.frame;
     viewFrame.size.height = height;

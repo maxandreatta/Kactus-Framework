@@ -21,9 +21,9 @@
 - (CGFloat)getY;
 - (CGFloat)getWidth;
 - (CGFloat)getHeight;
-- (void)setX:(float)x;
-- (void)setY:(float)y;
-- (void)setWidth:(float)width;
-- (void)setHeight:(float)height;
+- (void)setX:(CGFloat)x;
+- (void)setY:(CGFloat)y;
+- (void)setWidth:(CGFloat)width;
+- (void)setHeight:(CGFloat)height;
 
 @end

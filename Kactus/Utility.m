@@ -162,20 +162,4 @@
     
 }
 
-/*
-+ (id)applyShadow:(id)elementToWhichToApply {
-    if([elementToWhichToApply class] == [UILabel class]) {
-        UILabel *labelToEdit = elementToWhichToApply;
-        labelToEdit.layer.shadowOpacity = 0.3;
-        labelToEdit.layer.shadowRadius = 0.3;
-        labelToEdit.layer.shadowOffset = CGSizeMake(0.0, 1.1);
-        labelToEdit.layer.shouldRasterize = TRUE;
-        labelToEdit.layer.shadowColor = [UIColor blackColor].CGColor;
-        return labelToEdit;
-    } else {
-        return elementToWhichToApply;
-    }
-}
- */
-
 @end

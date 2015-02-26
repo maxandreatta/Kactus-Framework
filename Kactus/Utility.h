@@ -13,6 +13,5 @@
 + (NSMutableArray*) JSONStringtoArray:(NSString*)jsonString;
 + (NSString*) truncateString:(NSString *)stringToTruncate after:(int)maxRange;
 + (UIView*)addGradientViewToBackView:(UIView*)viewParent withFrame:(CGRect)frameGradientView colors:(NSArray*)arrayColors andGradientLocation:(NSArray*)arrayGradientLocation;
-// + (id)applyShadow:(id)elementToWhichToApply;
 
 @end

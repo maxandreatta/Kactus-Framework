@@ -373,13 +373,13 @@
 		2BC60AA11975709700E797AC /* Kactus */ = {
 			isa = PBXGroup;
 			children = (
-				2B1C291719CB22E700EC43E4 /* Class */,
-				2BA7E7F9198A7EF500EB2DA8 /* Localization */,
-				2B9CD3741982A4EB008F9F85 /* SystemServicesInfo */,
-				2BCD0DF1197D141D00138FF6 /* SubClass */,
 				2BC60AC71975719700E797AC /* Category */,
+				2B1C291719CB22E700EC43E4 /* Class */,
 				2BC60AA41975709700E797AC /* Kactus.h */,
+				2BA7E7F9198A7EF500EB2DA8 /* Localization */,
+				2BCD0DF1197D141D00138FF6 /* SubClass */,
 				2BC60AA21975709700E797AC /* Supporting Files */,
+				2B9CD3741982A4EB008F9F85 /* SystemServicesInfo */,
 			);
 			path = Kactus;
 			sourceTree = "<group>";

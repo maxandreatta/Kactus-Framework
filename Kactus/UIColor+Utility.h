@@ -11,6 +11,6 @@
 @interface UIColor (Utility)
 
 + (void)getRGBComponents:(CGFloat [3])components forColor:(UIColor *)color;
-+ (UIColor *) colorWithHexString: (NSString *) stringToConvert alpha:(float)alpha;
++ (UIColor *)colorWithHexString:(NSString *)stringToConvert alpha:(float)alpha;
 
 @end

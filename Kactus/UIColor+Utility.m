@@ -30,7 +30,7 @@
     }
 }
 
-+ (UIColor *) colorWithHexString: (NSString *) stringToConvert alpha:(float)alpha
++ (UIColor *)colorWithHexString:(NSString *)stringToConvert alpha:(float)alpha
 {
     NSString *cString = [[stringToConvert stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
     if ([cString length] < 6) return [UIColor blackColor];
